@@ -36,7 +36,7 @@ md = markdown2.Markdown()
 
 # make an empty map
 # m = folium.Map(location=(20, 0), tiles="Mapbox Bright", zoom_start=2)
-m = folium.Map(location=(20, 9), tiles="cartodbpositron", zoom_start=2)
+m = folium.Map(location=(37, 9), tiles="cartodbpositron", zoom_start=2)
 # m = folium.Map(location=(20, 0), tiles="openstreetmap", zoom_start=2)
 
 places = df[.!(ismissing.(df[:lat])),:]
